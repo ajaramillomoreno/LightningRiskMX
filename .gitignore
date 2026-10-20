@@ -1,0 +1,65 @@
+# ============================================================
+# LightningRiskMX — Git ignore rules
+# ============================================================
+
+# Hidden files and directories (local settings, caches, etc.)
+# Keep the repository configuration files listed below.
+.*
+!.gitignore
+!.gitattributes
+!.gitmodules
+!.editorconfig
+!.gitkeep
+!.github/
+!.zenodo.json
+!.env.example
+
+# macOS metadata
+.DS_Store
+._*
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+.TemporaryItems/
+.AppleDouble/
+.LSOverride
+
+# Editor and operating-system temporary files
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak
+*.orig
+*.log
+Thumbs.db
+Desktop.ini
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Temporary working directories (not publication-ready data)
+scratch/
+tmp/
+temp/
+
+# IMPORTANT: Do not ignore publication-ready maps/data.
+# GeoJSON, GeoPackage, Shapefile, CSV, TIFF and other outputs
+# intended for sharing should be tracked deliberately.
