@@ -60,6 +60,9 @@ scratch/
 tmp/
 temp/
 
+# Local workspace for data processing and figure generation
+/local_work/
+
 # IMPORTANT: Do not ignore publication-ready maps/data.
 # GeoJSON, GeoPackage, Shapefile, CSV, TIFF and other outputs
 # intended for sharing should be tracked deliberately.
