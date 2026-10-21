@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: >-
+  If you use the lightning fatality incident counts, municipal risk classifications,
+  or derived geospatial maps from LightningRiskMX, please cite the original
+  research article listed below.
+type: dataset
+title: "LightningRiskMX: Geospatial representations of lightning fatality risk in Mexico"
+abstract: >-
+  Ready-to-use GeoJSON datasets and maps representing published municipal
+  lightning fatality incidents and risk classifications in Mexico.
+  The scientific data originate from the supplementary material of Jaramillo
+  and Dominguez (2024); administrative boundary geometries are provided
+  separately through INEGI and CONABIO.
+authors:
+  - family-names: Jaramillo
+    given-names: Alejandro
+    orcid: "https://orcid.org/0000-0002-4175-7726"
+  - family-names: Dominguez
+    given-names: Christian
+repository: "https://github.com/ajaramillomoreno/LightningRiskMX"
+url: "https://ajaramillomoreno.github.io/projects/lightning-risk-mx/"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Jaramillo
+      given-names: Alejandro
+      orcid: "https://orcid.org/0000-0002-4175-7726"
+    - family-names: Dominguez
+      given-names: Christian
+  title: "Mapping Lightning Risk in Mexico: Integrating Natural Hazard and Social Vulnerability"
+  journal: "Weather, Climate, and Society"
+  year: 2024
+  volume: 16
+  issue: 3
+  start: 563
+  end: 574
+  doi: "10.1175/WCAS-D-23-0151.1"
+  url: "https://doi.org/10.1175/WCAS-D-23-0151.1"
