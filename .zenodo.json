@@ -30,5 +30,7 @@
       "resource_type": "publication-article"
     }
   ],
-  "language": "eng"
+  "language": "eng",
+  "license": "other-open",
+  "notes": "The lightning fatality incident counts and municipal risk classifications originate from Jaramillo and Dominguez (2024), DOI: 10.1175/WCAS-D-23-0151.1. The original tabular data are available in the article's supplementary material. Municipal geometries are based on INEGI's 2020 municipal administrative boundaries, distributed through CONABIO. Users must acknowledge the original scientific publication and cartographic source. Reuse of boundary geometries remains subject to INEGI's applicable terms of free use. The geographic joins, aggregation, simplification and GeoJSON exports were prepared specifically for LightningRiskMX. This designation does not replace third-party reuse terms."
 }
