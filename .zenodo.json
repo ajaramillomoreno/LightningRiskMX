@@ -1,0 +1,34 @@
+{
+  "title": "LightningRiskMX v1.0: Geospatial Representation of Lightning Fatality Incidents and Risk in Mexico",
+  "upload_type": "dataset",
+  "version": "v1.0",
+  "creators": [
+    {
+      "name": "Jaramillo, Alejandro",
+      "affiliation": "Instituto de Ciencias de la Atmósfera y Cambio Climático, Universidad Nacional Autónoma de México"
+    },
+    {
+      "name": "Dominguez, Christian",
+      "affiliation": "Instituto de Ciencias de la Atmósfera y Cambio Climático, Universidad Nacional Autónoma de México"
+    }
+  ],
+  "description": "<p>LightningRiskMX v1.0 provides ready-to-use GeoJSON files and scientific maps representing lightning-related fatality incidents and municipal lightning risk in Mexico. The underlying scientific results were originally published by Jaramillo and Dominguez (2024), and the source tabular data without geometries are available in the supplementary material of that article.</p><p>For this repository, the published municipal results were associated with 2020 Mexican municipal boundaries obtained through the CONABIO Geoportal (cartographic data attributed to INEGI). The geometries were simplified for visualization, and municipal incident counts were aggregated to create a state-level dataset. These geographic processing steps were undertaken to distribute and visualize existing results; they should not be interpreted as part of the original article's research methodology.</p><p>The archive contains three GeoJSON datasets, three scientific figures, and documentation. When using the scientific results, users should cite Jaramillo and Dominguez (2024): https://doi.org/10.1175/WCAS-D-23-0151.1. Cartographic attribution and applicable boundary-data reuse terms should also be respected.</p>",
+  "keywords": [
+    "lightning",
+    "lightning fatalities",
+    "lightning risk",
+    "Mexico",
+    "social vulnerability",
+    "municipalities",
+    "geospatial data",
+    "GeoJSON"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1175/WCAS-D-23-0151.1",
+      "relation": "isDerivedFrom",
+      "resource_type": "publication-article"
+    }
+  ],
+  "language": "eng"
+}
